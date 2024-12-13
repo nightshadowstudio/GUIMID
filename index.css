@@ -24,11 +24,9 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
     animation-name: example;
     animation-duration: 3s;
-
 }
 
 @keyframes example {
