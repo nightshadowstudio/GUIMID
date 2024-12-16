@@ -1,0 +1,10 @@
+#home{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    background: linear-gradient(-45deg, #c30b0e,#70151a, #420404);
+}

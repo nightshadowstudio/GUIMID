@@ -9,15 +9,16 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0px;
+    background: linear-gradient(-45deg, #c30b0e,#70151a, #420404);
+
 }
 
-.container{
+#splash{
     height: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
     display: flex;
-    flex-direction: row;
     margin: 0px;
     background: linear-gradient(-45deg, #5760d9,#3a5ccd, #1d1481);
 }
@@ -30,10 +31,10 @@ body{
     font-weight: bold;
     font-family: monospace;
     animation: 2s ease-out 0s 1  example;
+    transition: 0.8s ease-in-out
 }
 
 #next{
-
     width: 27px;
     height: 27px;
     background: white;
@@ -41,6 +42,12 @@ body{
     padding: 10px;
     margin: 10px;
     animation: 2s ease-out 0s 1  slideInFromLeft;
+    transition: 0.8s ease-in-out
+}
+
+#next:hover{
+    filter: invert();
+    scale: 0.8;
 }
 
 @keyframes example {
@@ -62,8 +69,4 @@ body{
         opacity: 100;
         transform: translateX(0);
     }
-}
-
-
-
-  
+}  
