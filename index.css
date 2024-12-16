@@ -1,15 +1,15 @@
 html{
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 
 body{
-    width: 100%;
+    width: auto;
     height: 100%;
     align-items: center;
     justify-content: center;
+    margin: 0px;
 }
-
 
 .container{
     height: 100%;
@@ -17,7 +17,9 @@ body{
     justify-content: center;
     text-align: center;
     display: flex;
-    background: linear-gradient(-45deg, #322171,#11313c, #1d1481);
+    flex-direction: row;
+    margin: 0px;
+    background: linear-gradient(-45deg, #5760d9,#3a5ccd, #1d1481);
 }
 
 #title{
@@ -25,20 +27,43 @@ body{
     justify-content: center;
     color: white;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    animation: 1s ease-out 0s 1  example;
-    animation-duration: 2.5s;
+    font-weight: bold;
+    font-family: monospace;
+    animation: 2s ease-out 0s 1  example;
+}
+
+#next{
+
+    width: 27px;
+    height: 27px;
+    background: white;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+    animation: 2s ease-out 0s 1  slideInFromLeft;
 }
 
 @keyframes example {
     0% {
-        scale: 0;
+        opacity: 0%;
 
     }
     100% {
-        scale: 1.5;
+        opacity: 100%;
     }
   }
+
+  @keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 100;
+        transform: translateX(0);
+    }
+}
+
 
 
   
