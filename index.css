@@ -9,8 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0px;
-    background: linear-gradient(-45deg, #c30b0e,#70151a, #420404);
-
+    background: linear-gradient(-45deg, #5760d9,#3a5ccd, #1d1481);
 }
 
 #splash{
@@ -42,11 +41,11 @@ body{
     padding: 10px;
     margin: 10px;
     animation: 2s ease-out 0s 1  slideInFromLeft;
-    transition: 0.8s ease-in-out
+    transition: 0.5s ease-in-out
 }
 
 #next:hover{
-    filter: invert();
+    filter: invert(80%);
     scale: 0.8;
 }
 

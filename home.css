@@ -1,10 +1,49 @@
 #home{
     height: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background: linear-gradient(-45deg, #f3f3f8,#e8ebf5, #efeff4);
+}
+
+#topBar{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
-    margin: 0px;
-    background: linear-gradient(-45deg, #c30b0e,#70151a, #420404);
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(52, 49, 49);
+    box-shadow: 5px 1px 2px #353537;
+}
+
+.topItem{
+    text-align: center;
+    font-size: 18px;
+    color: #f7f8fd;
+    padding: 6px;
+    font-family: monospace;
+    margin-left: 5%;
+    margin-right: 5%;
+    user-select: none
+}
+
+.topItem:hover{
+    color: gray;
+
+}
+
+
+.topItem.active{
+    color: #152cb1;
+    font-weight: bold;
+}
+
+
+.card{
+    width: 70%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 grey;
+    margin: auto;
 }
