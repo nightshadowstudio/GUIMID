@@ -10,7 +10,10 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0px;
-    background: linear-gradient(-45deg, #052f2f,#350536, #2d043a);
+    background: linear-gradient(-45deg, #5760d9,#3a5ccd, #1d1481);
+    background-image: url('./icons/abstract.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #splash{
@@ -83,7 +86,7 @@ body{
    /*background: linear-gradient(-45deg, rgb(228, 228, 228), #f3f3f3);*/
    background-image: url('./icons/abstract.jpg');
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: 100%;
 
 }
 
