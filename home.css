@@ -2,7 +2,7 @@
 .card{
     width: 70%;
     height: 50%;
-    box-shadow: 0 4px 8px 0 rgb(47, 46, 46), 0 6px 20px 0 grey;
+    box-shadow: 0 4px 8px 0 rgb(74, 72, 72), 0 6px 20px 0 grey;
     margin: auto;
 }
 
@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(-45deg, rgb(239, 237, 237), #e0dede);
+    background: linear-gradient(-45deg, rgb(228, 228, 228), #f3f3f3);
 }
 
 #span{
@@ -20,6 +20,6 @@
    font-size: 30px;
    font-family: monospace;
    font-weight: bold;
-   color:  #5760d9;   
+   color:  rgb(70, 66, 66);  
 }
 

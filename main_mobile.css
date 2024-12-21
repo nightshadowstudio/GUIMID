@@ -25,6 +25,9 @@
     user-select: none
 }
 
+#topBar{
+    overflow-x: scroll;
+}
 
 
 
