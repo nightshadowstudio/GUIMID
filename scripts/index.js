@@ -4,6 +4,7 @@
   function init() {
 
     var splash = document.getElementById("splash");
+    var main = document.getElementById("main");
     var next = document.getElementById("next");
 
     var home = document.getElementById("home");
@@ -13,6 +14,8 @@
     var contacts = document.getElementById("contacts");
 
     show(home);
+
+    main.style.display = 'none';
 
 
     next.onclick = () => {
@@ -25,6 +28,7 @@
     
             splash.remove();
     
+            main.style.display = 'flex';
         });
     };
 
