@@ -15,7 +15,8 @@
 
     show(home);
 
-    main.style.display = 'none';
+   // main.style.display = 'none';
+    main.style.opacity = "0";
 
 
     next.onclick = () => {
@@ -24,6 +25,7 @@
     
         splash.style.opacity = "0";
     
+
         splash.addEventListener("transitionend", function () {
     
         
@@ -32,6 +34,11 @@
             splash.remove();
     
             main.style.display = 'flex';
+
+            main.style.transition = "all 1s ease-in-out";
+    
+            main.style.opacity = "1";
+        
         });
     };
 
