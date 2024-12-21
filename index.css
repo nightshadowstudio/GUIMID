@@ -4,15 +4,17 @@ html{
 }
 
 body{
+    overflow: auto;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
     margin: 0px;
-    background: linear-gradient(-45deg, #5760d9,#3a5ccd, #1d1481);
+    background: linear-gradient(-45deg, #052f2f,#350536, #2d043a);
 }
 
 #splash{
+    width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -83,7 +85,7 @@ body{
 }
 
 #topBar{
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -92,6 +94,7 @@ body{
     padding: 15px;
     background-color: rgb(52, 49, 49);
     box-shadow: 5px 1px 2px #353537;
+    overflow: scroll;
 }
 
 .topItem{
@@ -102,7 +105,10 @@ body{
     font-family: monospace;
     margin-left: 5%;
     margin-right: 5%;
-    user-select: none
+    user-select: none;
+    white-space: nowrap;
+    
+    
 }
 
 .topItem:hover{

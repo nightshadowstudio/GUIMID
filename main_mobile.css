@@ -30,6 +30,76 @@
 }
 
 
+#welcome{
+    width: 90%;
+    height: 35%;
+}
+
+#myCard{
+    
+    width: 90%;
+    height: auto;
+    padding: 20px;
+}
+
+#skillsCard{
+    
+    width: 90%;
+    height: auto;
+    padding: 15px;
+}
+
+.skillIcon{
+
+    width: 50px;
+    height: 50px;
+}
+
+.skillTitle{
+
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    font-family: monospace;
+    padding: 16px;
+    color:  rgb(70, 66, 66);  
+}
+
+.outerProg{
+
+    height: 34px;
+    width: 190px;
+    background-color: lightgray;
+}
+
+.innerProg{
+
+    height: 34px;
+    width: 65%;
+    color: #e0dede;
+    font-size: 20px;
+    font-family: monospace;
+    align-content: center;
+    background-color: gray;
+}
+
+
+#projectsCard{
+
+    width: 60%;
+    height: auto;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Custom Mobile Nav CTA Button */
