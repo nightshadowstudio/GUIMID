@@ -82,6 +82,7 @@ body{
    /* background: linear-gradient(-45deg, #f3f3f8,#e8ebf5, #efeff4);*/
    /*background: linear-gradient(-45deg, rgb(228, 228, 228), #f3f3f3);*/
    background-image: url('./icons/abstract.jpg');
+   background-repeat: no-repeat;
 
 }
 
