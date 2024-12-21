@@ -1,0 +1,36 @@
+#myCard{
+    
+    width: 60%;
+    height: auto;
+    flex-direction: row;
+    padding: 20px;
+    background: linear-gradient(-45deg, rgb(239, 237, 237), #e0dede);
+}
+
+#pfp{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-width: 4px;
+    margin: 10px;
+    border:solid rgb(52, 49, 49);
+}
+
+#name{
+    
+   font-size: 27px;
+   font-family: monospace;
+   font-weight: normal;
+   padding: 20px;
+   color:  rgb(52, 49, 49);  
+}
+
+.about{
+    
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: normal;
+    white-space: pre-line;
+    color:  rgb(70, 66, 66);  
+ }

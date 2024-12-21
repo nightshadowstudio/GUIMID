@@ -30,7 +30,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-family: monospace;
-    animation: 2s ease-out 0s 1  example;
+    animation: 2s ease-out 0s 1  alphaAnim;
     transition: 0.8s ease-in-out
 }
 
@@ -50,7 +50,7 @@ body{
     scale: 0.8;
 }
 
-@keyframes example {
+@keyframes alphaAnim {
     0% {
         opacity: 0%;
 
@@ -69,4 +69,60 @@ body{
         opacity: 100;
         transform: translateX(0);
     }
+}
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background: linear-gradient(-45deg, #f3f3f8,#e8ebf5, #efeff4);
+}
+
+#topBar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(52, 49, 49);
+    box-shadow: 5px 1px 2px #353537;
+}
+
+.topItem{
+    text-align: center;
+    font-size: 18px;
+    color: #f7f8fd;
+    padding: 6px;
+    font-family: monospace;
+    margin-left: 5%;
+    margin-right: 5%;
+    user-select: none
+}
+
+.topItem:hover{
+    color: gray;
+
+}
+
+
+.topItem.active{
+    color: #5760d9;
+    font-weight: bold;
+}
+
+
+.screen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
 }
