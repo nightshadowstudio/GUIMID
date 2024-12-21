@@ -26,8 +26,12 @@
     
         splash.addEventListener("transitionend", function () {
     
+            
+            splash.style.display = 'none';
+
             splash.remove();
     
+
             main.style.display = 'flex';
         });
     };

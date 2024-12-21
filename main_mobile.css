@@ -16,9 +16,9 @@
 
 .topItem{
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     color: #f7f8fd;
-    padding: 6px;
+    padding: 10px;
     font-family: monospace;
     margin-left: 5%;
     margin-right: 5%;
@@ -35,6 +35,7 @@
     height: 35%;
 }
 
+/********************************************************/
 #myCard{
     
     width: 90%;
@@ -42,21 +43,45 @@
     padding: 20px;
 }
 
+
+#pfp{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border-width: 6px;
+    margin: 10px;
+    border:solid rgb(52, 49, 49);
+}
+
+#name{
+   font-size: 37px;
+   font-family: monospace;
+   font-weight: normal;
+   padding: 20px;
+   color:  rgb(52, 49, 49);  
+}
+
+.about{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: normal;
+    white-space: pre-line;
+    color:  rgb(70, 66, 66);  
+ }
+
+/*********************************************************/
 #skillsCard{
-    
     width: 90%;
     height: auto;
     padding: 15px;
 }
 
 .skillIcon{
-
     width: 50px;
     height: 50px;
 }
 
 .skillTitle{
-
     width: 100%;
     display: flex;
     font-size: 30px;
@@ -66,14 +91,12 @@
 }
 
 .outerProg{
-
     height: 34px;
     width: 190px;
     background-color: lightgray;
 }
 
 .innerProg{
-
     height: 34px;
     width: 65%;
     color: #e0dede;
@@ -83,6 +106,7 @@
     background-color: gray;
 }
 
+/********************************************************/
 
 #projectsCard{
 
@@ -92,8 +116,15 @@
 }
 
 
+/********************************************************/
 
 
+#main{
+  
+   background-image: url('./icons/v748-toon-106.jpg');
+
+}
+/********************************************************/
 
 
 
