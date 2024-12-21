@@ -109,6 +109,7 @@ body{
     font-size: 18px;
     color: #f7f8fd;
     padding: 6px;
+    flex-grow:1;
     display: flexbox;
     font-family: monospace;
     margin-left: 5%;
