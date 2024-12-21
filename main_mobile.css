@@ -13,6 +13,22 @@
     rotate: 0deg;
 }
 
+
+.topItem{
+    text-align: center;
+    font-size: 28px;
+    color: #f7f8fd;
+    padding: 6px;
+    font-family: monospace;
+    margin-left: 5%;
+    margin-right: 5%;
+    user-select: none
+}
+
+
+
+
+
 /* Custom Mobile Nav CTA Button */
 .header-menu-cta a {
     font-family: proxima-nova;
