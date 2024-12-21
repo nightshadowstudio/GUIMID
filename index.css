@@ -95,7 +95,7 @@ body{
     padding: 15px;
     background-color: rgb(52, 49, 49);
     box-shadow: 5px 1px 2px #353537;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
 }
 
@@ -104,12 +104,12 @@ body{
     font-size: 18px;
     color: #f7f8fd;
     padding: 6px;
+    display: flexbox;
     font-family: monospace;
     margin-left: 5%;
     margin-right: 5%;
     user-select: none;
     white-space: nowrap;
-    
     
 }
 
