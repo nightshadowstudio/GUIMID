@@ -83,6 +83,7 @@ body{
    /*background: linear-gradient(-45deg, rgb(228, 228, 228), #f3f3f3);*/
    background-image: url('./icons/abstract.jpg');
    background-repeat: no-repeat;
+   background-size: cover;
 
 }
 
